@@ -41,11 +41,11 @@ Cypress.Commands.add("registrasi", (usernameregis, emailregis, passwordregis, co
   cy.clearCookies();
   cy.clearLocalStorage();
 
-  cy.get('#register_main > :nth-child(1) > .row > .col-md-8 > .form-control').clear();
+  cy.get("#register_main > :nth-child(1) > .row > .col-md-8 > .form-control").clear();
   cy.get("#register_main > :nth-child(1) > .row > .col-md-8 > .form-control").type(usernameregis);
 
-  cy.get(':nth-child(2) > .row > .col-md-8 > #Email').clear();
-  cy.get(':nth-child(2) > .row > .col-md-8 > #Email').type(emailregis);
+  cy.get(":nth-child(2) > .row > .col-md-8 > #Email").clear();
+  cy.get(":nth-child(2) > .row > .col-md-8 > #Email").type(emailregis);
 
   cy.get("#register_main > :nth-child(3) > .row > .col-md-8 > .form-control").clear();
   cy.get("#register_main > :nth-child(3) > .row > .col-md-8 > .form-control").type(passwordregis);
@@ -53,10 +53,10 @@ Cypress.Commands.add("registrasi", (usernameregis, emailregis, passwordregis, co
   cy.get(":nth-child(4) > .row > .col-md-8 > #Password2").clear();
   cy.get(":nth-child(4) > .row > .col-md-8 > #Password2").type(confirm_passwordregis);
 
-  cy.get('#country_code').clear();
-  cy.get('#country_code').type(country_coderegis);
-  cy.get('.input-group > #Number').clear();
-  cy.get('.input-group > #Number').type(phone_numberregis);
+  cy.get("#country_code").clear();
+  cy.get("#country_code").type(country_coderegis);
+  cy.get(".input-group > #Number").clear();
+  cy.get(".input-group > #Number").type(phone_numberregis);
 
   cy.get("#refrensi").clear();
   cy.get("#refrensi").type(referensiregis);
