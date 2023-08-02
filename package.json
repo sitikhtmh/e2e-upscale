@@ -1,0 +1,19 @@
+{
+  "name": "upscale",
+  "version": "1.0.0",
+  "description": "testing automation website upscale",
+  "main": "index.js",
+  "repository": "https://upscale.id",
+  "author": "sitikhtmh",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.17.2"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.9.1"
+  }
+}

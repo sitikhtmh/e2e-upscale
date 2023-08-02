@@ -1,0 +1,13 @@
+{
+  
+  "email": "lala@gmail.com",
+  "password": "lala123",
+
+  "usernameregis":"salsa", 
+  "emailregis" : "salsa@gmail.com", 
+  "passwordregis":"salsa123", 
+  "confirm_passwordregis":"salsa123", 
+  "country_coderegis":"+62", 
+  "phone_numberregis":"85261869451", 
+  "referensiregis":"Telegram"
+}
